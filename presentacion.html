@@ -6,51 +6,39 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/main.css" rel="stylesheet" />
 	<link rel="shortcut icon" href="imgs/icon.png">
-	<title>INVENTAR</title>
-	
+	<title>EUROPEDIDOS</title>
 </head>
 <body>
 	<header>
 		<img src="imgs/logo2.svg" width="65" height="65">
 			<center>
-				<h1>INVENTAR</h1>
+				<h1>SISTEMA DE GESTIÓN DE PEDIDOS</h1>
 			</center>
 		<div class="menu-btn" id="menu-btn">
             <div class="menu-btn__burger"></div>
             <div class="menu-btn__burger"></div>
             <div class="menu-btn__burger"></div>
         </div>
-        <!--<nav class="nav" id="nav">
+        <nav class="nav" id="nav">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="p_pollo.html">Pedido de Pollo</a></li>
                 <li><a href="p_carne.html">Pedido de Carne</a></li>
                 <li><a href="p_fruver.html">Pedido de Fruver</a></li>
             </ul>
-        </nav>-->
+        </nav>
     </header>
     <br>
-    <center>
-    <div class="formulario" align="center">	
-		<form onsubmit="verificarUsuario(event)" >
-			<h2>LOGIN</h2>
-			<div class="label">
-				<label for="usuario">CORREO:</label>
-				<input type="text" placeholder="usuario" id="usuario" name="usuario">
-			</div>
-			<div class="label">
-				<label for="contraseña">CONTRASEÑA</label>
-				<input type="password" placeholder="contraseña" id="contraseña" name="contraseña">
-				<br>
-				<a href="recordar_clave.html">Recordar contraseña</a>
-			</div>
-				<input type="submit" value="INGRESAR">
-					<a href="registro.html">
-						<input class="boton" type="button" value="REGISTRARSE" onclick="login">
-					</a>
-		</form>
-	</div>
-	</center>
-	<script src="js/main.js"></script>
+    <main>
+    	<center>
+    		<a href="p_pollo.html"><img src="imgs/bucanero.jpg" width="150" height="125" class="agrandar"></img></a>
+
+    		<a href="p_carne.html"><img src="imgs/cuality.jpg" width="150" height="125" class="agrandar"></img></a>
+
+    		<a href="p_fruver.html"><img src="imgs/fruver.jpg" width="150" height="125" class="agrandar"></img></a>
+    		<h3>Seleciona la categoría para la cual deseas generar un pedido.</h3>
+    	</center>
+    </main>
+    <script src="js/main.js"> </script>
 </body>
 </html>
