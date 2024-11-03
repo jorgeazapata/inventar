@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/registro.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="imgs/icon.png">
+	<title>INVENTAR</title>
+	
+</head>
+<body>
+	<header>
+		<img src="imgs/logo2.svg" width="65" height="65">
+			<center>
+				<h1>INVENTAR</h1>
+			</center>
+		<div class="menu-btn" id="menu-btn">
+            <div class="menu-btn__burger"></div>
+            <div class="menu-btn__burger"></div>
+            <div class="menu-btn__burger"></div>
+        </div>
+        <!--<nav class="nav" id="nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="p_pollo.html">Pedido de Pollo</a></li>
+                <li><a href="p_carne.html">Pedido de Carne</a></li>
+                <li><a href="p_fruver.html">Pedido de Fruver</a></li>
+            </ul>
+        </nav>-->
+    </header>
+    <br>
+    <center>
+    <div class="formulario" align="center">	
+		<form action="">
+			<h2>REGISTRO</h2>
+			<div class="label">
+				<label>NOMBRES</label>
+				<input type="text" placeholder="JUAN ALEJANDRO" id="usuario">
+			</div>
+			<div class="label">
+				<label>APELLIDOS</label>
+				<input type="text" placeholder="VELÁZQUEZ ZAPATA" id="usuario">
+			</div>
+			<div class="label">
+				<label>CÉDULA</label>
+				<input type="text" placeholder="1000000000" id="usuario">
+			</div>
+			<div class="label">
+				<label>CARGO</label>
+				<select name="transporte">
+					<option value="1">Gerente</option>
+					<option value="2">Coordinador</option>
+					<option value="3">Asesor</option>
+					<option value="4">Auxiliar de recibo</option>
+					</select>
+			</div>
+			<div class="label">
+				<label>CORREO</label>
+				<input type="text" placeholder="ejemplo@inventar.com" id="usuario">
+			</div>
+			<div class="label">
+				<label>CONTRASEÑA</label>
+				<input class="ipass" type="password" placeholder="CLAVE" id="clave">
+			</div>
+			<div class="label">
+				<label>CONFIRMA TU CONTRASEÑA</label>
+				<input class="ipass" type="password" placeholder="CLAVE" id="clave">
+			</div>
+				<input class="boton" type="button" value="GUARDAR DATOS" onclick="login">
+				<a href="index.html"><input class="boton" type="button" value="VOLVER AL INICIO" onclick="login"></a>
+		</form>
+	</div>
+	</center>
+	<script src="js/main.js"> </script>
+</body>
+</html>
