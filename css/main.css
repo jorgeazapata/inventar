@@ -142,8 +142,8 @@ h1 {
 .formulario {
     flex-direction: column;
     justify-content: space-around;
-    width: 320px;
-    height: 300px;
+    width: 360px;
+    height: 360px;
     cursor: pointer;
     background-color: #121A79;
     border-radius: 15%;
@@ -165,4 +165,10 @@ h2 {
     padding: 10px 20px;
     font-weight: 900;
     font-size: 50;
+}
+input {
+    padding: 3px 50px;
+    text-align: center;
+    align-items: auto;
+    border-radius: 10px 10px 10px 10px;
 }
