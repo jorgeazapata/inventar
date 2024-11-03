@@ -2,8 +2,6 @@ document.getElementById('menu-btn').addEventListener('click', function() {
     document.getElementById('nav').classList.toggle('active');
 });
 
-onload
-
 const usuarioCorrecto = "1234";
 const contraseñaCorrecta = "1234";
 
